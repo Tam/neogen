@@ -1,0 +1,13 @@
+[package]
+name = "neogen"
+version = "0.1.0"
+edition = "2021"
+description = "Near Optimal Generator of Navigation Meshes for 3D Multi-Layered Environments."
+repository = "https://github.com/Tam/neogen"
+license = "LGPL-3.0-or-later"
+keywords = ["navmesh"]
+
+[lib]
+
+[dependencies]
+wgpu = { version = "0.15.0", features = ["spirv"] }
